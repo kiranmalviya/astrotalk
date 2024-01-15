@@ -1,0 +1,53 @@
+.astrologer{
+    padding: 30px 0;
+    background: #f0df20;
+}
+
+.container{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: center;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+}
+
+.col-md-12{
+    margin: auto;
+}
+
+.sections-headings{
+    text-align: center;
+    margin-bottom: 10px;
+    z-index: 99;
+}
+
+.heading h2{
+    text-align: center;
+    color: #313131;
+    font-weight: 700;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.sections-headings h3{
+    color: #616161;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+}

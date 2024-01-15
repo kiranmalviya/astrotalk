@@ -1,0 +1,21 @@
+.celebrity{
+    padding: 30px 0 40px;
+}
+
+.container{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.celebrity h2{
+    text-align: center;
+    color: #313131;
+    font-weight: 700;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 24px;
+}

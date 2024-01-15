@@ -1,0 +1,59 @@
+.why_astrology{
+    background-color: #eee;
+    padding: 40px 0 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  
+}
+
+.container{
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.heading{
+    text-align: center;
+    color: #313131;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.subheading{
+    text-align: center;
+    color: #616161;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.description-section{
+    margin: 0px 150px;
+}
+
+.why_astrology p{
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: justify;
+    color: #616161;
+}
+
+.why_astrology p strong {
+    color: #454545;
+    font-weight: bolder;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}

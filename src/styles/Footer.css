@@ -1,0 +1,243 @@
+.footer-top{
+    padding: 20px 140px;
+    text-align: left;
+    background-color: #454545;
+    visibility: visible;
+    animation-name: fadeInDown;
+}
+
+.container{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-top h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: #ddd;
+    padding-bottom: 10px;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: inline-block;   
+}
+
+.footer-top h2::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0df20;
+    height: 2px;
+}
+
+.about_footer{
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ddd;
+    line-height: 2;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #7d7d7d;
+    word-break: break-word;
+    cursor: pointer;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+
+.footer .link{
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 2;
+    padding-bottom: 5px;
+    word-break: break-word;
+}
+
+.footer-links a{
+    color: #ddd;
+    border: 0;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.footer-links .heading-link{
+    font-size: 18px;
+    font-weight: 600;
+    color: #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    width: auto;
+}
+
+.heading-link::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0df20;
+    height: 2px;
+}
+
+.footer-top .link{
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 2;
+    padding-bottom: 5px;
+    word-break: break-word;
+}
+
+.footer-links .text{
+    color: #ddd;
+    border: 0;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.footer-top .discription_link{
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 2;
+    padding-bottom: 5px;
+    word-break: break-word;
+}
+
+.fa{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.footer-links .text span.text-link{
+    color: #f0df20;
+    display: inline;
+}
+
+.footer-social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0 10px;
+}
+
+.footer-links .facebook{
+    background-color: #4267b2;
+}
+
+.footer-links .social-media{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-social .social{
+    border: 0;
+    text-decoration: none;
+    font-size: 24px;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #fff;
+}
+
+.footer-links .instagram{
+    background: linear-gradient(30deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);
+}
+
+.footer-links .linkedin{
+    background-color: #0072b1;
+}
+
+.footer-links .youtube{
+    background-color: red;
+}
+
+.row_secure_items{
+    margin: 15px 0 0;
+}
+
+.confidential{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.icon_left_side{
+    background-color: #eee;
+    border-radius: 30%;
+    padding: 12px;
+    width: 50px;
+}
+
+.row_secure_items h3{
+    font-size: 17px;
+    text-align: left;
+    line-height: 1.5;
+    margin-left: 10px;
+    margin-bottom: 0;
+    padding: 0;
+    font-weight: 400;
+    margin-top: 0;
+    color: #ddd;
+}
+
+.btns_app{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btns_app Link{
+    width: 49%;
+    transition: .3s ease-in-out;
+}
+
+.btns_app Link img{
+    border-radius: 5px;
+    transition: .3s ease-in-out;
+}
+
+.copyright{
+    background: #000;
+    padding: 15px 0;
+}
+
+.text-center{
+    text-align: center!important;
+}
+
+.copyright p{
+    color: #fff;
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+}
